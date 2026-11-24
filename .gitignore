@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Files the dashboard writes at run time
+dashboard/call_log.csv
+dashboard/queue_assignments.csv
+dashboard/call_queue_top*pct.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
